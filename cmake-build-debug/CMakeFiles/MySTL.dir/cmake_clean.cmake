@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MySTL.dir/lib/myVector.cpp.obj"
   "CMakeFiles/MySTL.dir/main.cpp.obj"
   "MySTL.exe"
   "MySTL.exe.manifest"

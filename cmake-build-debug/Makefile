@@ -126,6 +126,33 @@ MySTL\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\build
 .PHONY : MySTL\fast
 
+lib\myVector.obj: lib\myVector.cpp.obj
+
+.PHONY : lib\myVector.obj
+
+# target to build an object file
+lib\myVector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\lib\myVector.cpp.obj
+.PHONY : lib\myVector.cpp.obj
+
+lib\myVector.i: lib\myVector.cpp.i
+
+.PHONY : lib\myVector.i
+
+# target to preprocess a source file
+lib\myVector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\lib\myVector.cpp.i
+.PHONY : lib\myVector.cpp.i
+
+lib\myVector.s: lib\myVector.cpp.s
+
+.PHONY : lib\myVector.s
+
+# target to generate assembly for a file
+lib\myVector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\lib\myVector.cpp.s
+.PHONY : lib\myVector.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -162,6 +189,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MySTL
+	@echo ... lib/myVector.obj
+	@echo ... lib/myVector.i
+	@echo ... lib/myVector.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

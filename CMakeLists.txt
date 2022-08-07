@@ -3,4 +3,4 @@ project(MySTL)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MySTL main.cpp include/myVector.h)
+add_executable(MySTL main.cpp include/myVector.h lib/myVector.cpp)
