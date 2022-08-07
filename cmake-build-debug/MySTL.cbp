@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/C++coding/MySTL/include/myVector.h">
+			<Option target="MySTL"/>
+		</Unit>
 		<Unit filename="E:/C++coding/MySTL/main.cpp">
 			<Option target="MySTL"/>
 		</Unit>
