@@ -126,6 +126,33 @@ MySTL\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\build
 .PHONY : MySTL\fast
 
+lib\myStlAllocator\default_alloc.obj: lib\myStlAllocator\default_alloc.cpp.obj
+
+.PHONY : lib\myStlAllocator\default_alloc.obj
+
+# target to build an object file
+lib\myStlAllocator\default_alloc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\lib\myStlAllocator\default_alloc.cpp.obj
+.PHONY : lib\myStlAllocator\default_alloc.cpp.obj
+
+lib\myStlAllocator\default_alloc.i: lib\myStlAllocator\default_alloc.cpp.i
+
+.PHONY : lib\myStlAllocator\default_alloc.i
+
+# target to preprocess a source file
+lib\myStlAllocator\default_alloc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\lib\myStlAllocator\default_alloc.cpp.i
+.PHONY : lib\myStlAllocator\default_alloc.cpp.i
+
+lib\myStlAllocator\default_alloc.s: lib\myStlAllocator\default_alloc.cpp.s
+
+.PHONY : lib\myStlAllocator\default_alloc.s
+
+# target to generate assembly for a file
+lib\myStlAllocator\default_alloc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySTL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MySTL.dir\lib\myStlAllocator\default_alloc.cpp.s
+.PHONY : lib\myStlAllocator\default_alloc.cpp.s
+
 lib\myVector.obj: lib\myVector.cpp.obj
 
 .PHONY : lib\myVector.obj
@@ -189,6 +216,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MySTL
+	@echo ... lib/myStlAllocator/default_alloc.obj
+	@echo ... lib/myStlAllocator/default_alloc.i
+	@echo ... lib/myStlAllocator/default_alloc.s
 	@echo ... lib/myVector.obj
 	@echo ... lib/myVector.i
 	@echo ... lib/myVector.s

@@ -14,7 +14,7 @@
 #include <climits>   // for UNIT_MAX
 #include <iostream>   //for cerr
 
-namespace mystl{
+namespace simpleAllocator{
 
     template<class T>
     inline T *_allocate(ptrdiff_t size, T *) {

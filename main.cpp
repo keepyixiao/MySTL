@@ -1,18 +1,22 @@
 #include <iostream>
 #include "include/allocator/simpleAllocator.h"
+#include "include/myStlAllocator/simple_alloc.h"
 #include <vector>
 #include <iostream>
 
 int main() {
 
-    int ia[5] = {0, 1, 2, 3, 4};
-    unsigned int i;
 
-    std::vector<int, mystl::allocator<int> > iv(ia, ia+5);
+    int ia[5] = {1, 2, 3, 4, 5};
 
-    for(int i = 0; i < iv.size(); ++i){
-        std::cout << iv[i] << ' ';
-    }
+
+    int * addr  = simple_alloc<int>::allocate(10);
+    addr[0] = 1;
+    addr[1] = 2;
+
+    std::cout << addr[0] <<'\n';
+    std::cout <<addr[1] << '\n';
+
     std::cout << std::endl;
 
     return 0;

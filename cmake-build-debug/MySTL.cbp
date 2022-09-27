@@ -85,7 +85,19 @@
 		<Unit filename="E:/C++coding/MySTL/include/allocator/simpleAllocator.h">
 			<Option target="MySTL"/>
 		</Unit>
+		<Unit filename="E:/C++coding/MySTL/include/myStlAllocator/default_alloc.h">
+			<Option target="MySTL"/>
+		</Unit>
+		<Unit filename="E:/C++coding/MySTL/include/myStlAllocator/myStl_Construct.h">
+			<Option target="MySTL"/>
+		</Unit>
+		<Unit filename="E:/C++coding/MySTL/include/myStlAllocator/simple_alloc.h">
+			<Option target="MySTL"/>
+		</Unit>
 		<Unit filename="E:/C++coding/MySTL/include/myVector.h">
+			<Option target="MySTL"/>
+		</Unit>
+		<Unit filename="E:/C++coding/MySTL/lib/myStlAllocator/default_alloc.cpp">
 			<Option target="MySTL"/>
 		</Unit>
 		<Unit filename="E:/C++coding/MySTL/lib/myVector.cpp">

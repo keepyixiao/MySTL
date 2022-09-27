@@ -210,6 +210,9 @@ MySTL_BINARY_DIR:STATIC=E:/C++coding/MySTL/cmake-build-debug
 //Value Computed by CMake
 MySTL_SOURCE_DIR:STATIC=E:/C++coding/MySTL
 
+//use malloc_alloc_template
+_USE_MALLOC:BOOL=OFF
+
 
 ########################
 # INTERNAL cache entries
